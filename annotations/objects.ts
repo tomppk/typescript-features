@@ -11,7 +11,7 @@ const profile = {
 };
 
 // Destructuring properties from objects
-const { age, name }: { age: number; name: string } = profile;
+const { age, name }: { age: number } = profile;
 
 const {
   coords: { lat, lng },
